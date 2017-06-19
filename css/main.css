@@ -211,13 +211,19 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
 .linkImage img:first-child{ width:100%; max-width:276px}
 
+.linkImage img{ width:initial!important;}
+
 .linkText {width:50%; float:right; padding: 0 10%; line-height: 60px;}
 
 .linkText a { color:#282828; font-size:14px}
 
 .greyLine{ width:100%; max-width:950px; margin:25px auto; height:1px; background:#ccc}
 
+.contactLeft{ width:40%; float:left;}
 
+.contactLeft span{ width:240px; display:block;line-height: 23px; font-size:14px;font-family: 'Roboto', sans-serif;font-weight: 300;}
+
+.contactRight{ width:60%; float:right;}
 
 
 
@@ -262,8 +268,8 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 .footerMap{padding:2%}
 .eventsimageLeft { width:100%; float:none; max-width:450px;margin: auto;}
 .eventsimageRight { width:100%; float:none; max-width:450px;margin: auto;}
-
-
+.linkImage {width: 100%;float: none;padding: 0 10%;text-align: center;}
+.linkText {width: 100%;float: none;padding: 0 5%;line-height: 60px;text-align: center;}
 }
 
 
@@ -285,4 +291,6 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 .flagText{ margin:auto}
 .logoRight {width: 100%;float: none;text-align: center;}
 .logoRight img {margin: auto;float: none;}
+.linkImage img:first-child {max-width: 250px;}
 }
+
