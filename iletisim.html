@@ -97,8 +97,8 @@ nav: true,
 <div class="logoArea">
 <div class="logoLeft">
 <div class="responsiveFlag"></div>
-<div class='flag'></div>
-<div class='flagAmerica'>
+<div class="flag"> </div>
+<div class="flagAmerica">
 </div>
 <div class="clear"></div>
 <div class="flagText">Bu proje Avrupa Birliği ve<br />Türkiye Cumhuriyeti<br />tarafından finanse edilmektedir.</div>
@@ -138,13 +138,31 @@ nav: true,
 Eskişehir Yolu 8.Km No:156 06530 ANKARA <br />
 Tel: +90 (312) 292 90 90<br />
 Faks: +90 (312) 292 90 00<br />
-Web Sitesi	: <a href="http://www.spk.gov.tr/" target="_blank"> www.spk.gov.tr</a>
+Web Sitesi	: <a href="http://www.spk.gov.tr/" target="_blank"> <em> www.spk.gov.tr</em></a>
 </span>
 
-<form action="" method="get">
-<input name="" type="text" />
+<form class="iletisimForm" action="" method="get">
 
+<div class="element-input">
+    <label class="title">Name:</label>
+    <input class="medium" type="text" name="input" required="required" aria-required="true" >
+  </div>
+  
+  <div class="element-input">
+    <label class="title">Email:</label>
+    <input class="medium" type="text" name="input" required="required" aria-required="true">
+  </div>
+  
+  <div class="element-textarea">
+    <label class="title">Message:</label>
+    <textarea class="medium" name="textarea" cols="20" rows="5" required="required" aria-required="true"></textarea>
+  </div>
+  <div class="submit">
+    <input type="submit" value="Submit">
+  </div>
 </form>
+
+
 </div>
 
 <div class="contactRight">
