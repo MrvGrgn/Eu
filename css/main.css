@@ -199,11 +199,11 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
 .eventsimage{ width:100%;}
 
-.eventsimageLeft{float:left; width:50%; padding:2%}
+.eventsimageLeft{float:left; width:50%; padding:1% 1%}
 
 .eventsimageLeft img {width:100%;}
 
-.eventsimageRight {float:right; width:50%; padding:2%}
+.eventsimageRight {float:right; width:50%; padding :1% 1%}
 
 .eventsimageRight img {width:100%;}
 
@@ -219,6 +219,8 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
 .greyLine{ width:100%; max-width:950px; margin:25px auto; height:1px; background:#ccc}
 
+.blueText{color: #0071BC;}
+
 .contactLeft{ width:40%; float:left;}
 
 .contactLeft span{ width:240px; display:block;line-height: 23px; font-size:14px;font-family: 'Roboto', sans-serif;font-weight: 300;}
@@ -227,18 +229,15 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
 .contactLeft span em{ text-decoration:none; color:red; }
 
-.formText{color: #6B6B6B; font-size:14px}
+.actAsDiv{ width:570px; height:464px} 
 
+.formText{color: #6B6B6B; font-size:14px}
 
 .iletisimForm{font-size:14px;color:#666666;max-width:480px;}
 
 .iletisimForm label {display: block;margin: 10px 0px -15px 0px;}
 
-.iletisimForm textarea.medium {
-    width: 100%;
-    height: 90px;
-	max-width:350px
-}
+.iletisimForm textarea.medium {width: 100%;height: 90px;max-width:350px}
 
 .medium{;width: 100%;min-height: 14px;border-width: 1px;border-style: solid;border-color: #C4C4C4;background-color: #F2F2F2;padding: 6px;color: #C4C4C4;line-height: 14px;font-style: italic;margin-top: 19px;max-width:350px}
 
@@ -271,6 +270,11 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 .steps img {width: initial;margin: auto;display: block;}
 .titleTeam{text-align: center;margin: 25px auto;}
 .newsStep{ width:100%}
+.contactLeft {width: 100%;float: none;margin: auto;max-width: 350px;}
+.contactLeft span { width:100%; text-align:center}
+.contactRight {width: 100%;float: none;text-align: center;}
+.actAsDiv{ width:100%; height:464px} 
+
 }
 
 
