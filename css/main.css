@@ -62,14 +62,14 @@ a {-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transitio
 
 /* +++Bayrak İçin+++ */
 
-.responsiveFlag {background: url(../img/bayrakLogo.png) no-repeat;width: 196px;height: 78px;margin: 20px;display: none;}
+.responsiveFlag {background: url(../img/bayrakLogo.png) no-repeat;width: 196px;height: 78px;margin: 50px 20px 20px;display:block;}
 
-.flag  {width:100px;height:68px;margin: 50px auto 20px 30px; float:left;}
+.flag  {width:100px;height:68px;margin: 50px auto 20px 30px; float:left; display:none}
 
 .flag-element {-webkit-animation:oscill 1s ease-in-out infinite alternate; -moz-animation:oscill 1s ease-in-out infinite alternate; -ms-animation:oscill 1s ease-in-out infinite alternate; animation:oscill 1s ease-in-out infinite alternate; background:url(../img/Turkiye.gif);background-size: 100px 100%;position:relative;height:100%;width:1px;
 display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
-.flagAmerica  {width:100px;height:68px;margin:53px auto 20px 1px; float:left;}
+.flagAmerica  {width:100px;height:68px;margin:53px auto 20px 1px; float:left; display:none}
 
 .flag-element-two {-webkit-animation:oscill 1s ease-in-out infinite alternate; -moz-animation:oscill 1s ease-in-out infinite alternate; -ms-animation:oscill 1s ease-in-out infinite alternate; animation:oscill 1s ease-in-out infinite alternate; background:url(../img/AvrupaBirligi.gif);background-size: 100px 100%;position:relative;height:100%;width:1px;display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
@@ -223,15 +223,15 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 
 .blueText{color: #0071BC;}
 
-.contactLeft{ width:40%; float:left;}
+.contactAdres span{ display:block;line-height: 20px; font-size:14px;font-family: 'Roboto', sans-serif;font-weight: 300;}
 
-.contactLeft span{ width:240px; display:block;line-height: 23px; font-size:14px;font-family: 'Roboto', sans-serif;font-weight: 300;}
+.contactMap{ width:100%;}
 
-.contactRight{ width:60%; float:right;}
+.contactAdres span em{ text-decoration:none; color:red; }
 
-.contactLeft span em{ text-decoration:none; color:red; }
+.contactAdres{width: 100%;margin: auto;max-width: 350px; text-align:center; margin:0px auto 30px}
 
-.actAsDiv{ width:570px; height:464px} 
+.actAsDiv{ width:950px; height:464px} 
 
 .formText{color: #6B6B6B; font-size:14px}
 
@@ -272,9 +272,6 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 .steps img {width: initial;margin: auto;display: block;}
 .titleTeam{text-align: center;margin: 25px auto;}
 .newsStep{ width:100%}
-.contactLeft {width: 100%;float: none;margin: auto;max-width: 350px;}
-.contactLeft span { width:100%; text-align:center}
-.contactRight {width: 100%;float: none;text-align: center;}
 .actAsDiv{ width:100%; height:464px} 
 
 }
@@ -293,6 +290,7 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 .eventsimageRight { width:100%; float:none; max-width:450px;margin: auto;}
 .linkImage {width: 100%;float: none;padding: 0 10%;text-align: center;}
 .linkText {width: 100%;float: none;padding: 0 5%;line-height: 60px;text-align: center;}
+.flagText {font-size: 14px;margin: 5px 10px;}
 }
 
 
@@ -303,17 +301,17 @@ display:inline-block;box-shadow:0 1px grey, 0 -1px gray;}
 .flagAmerica{display:none;}
 .newsImg {width: 100%;float: none;text-align: center;}
 .newsText {width: 100%;float: none;text-align: center;}
+.logoLeft {width: 100%;float: none;}
+.responsiveFlag{ margin:25px auto}
+.flagText{ margin:auto}
+.logoRight {width: 100%;float: none;text-align: center;}
+.logoRight img {margin: auto;float: none;}
 }
 
 
 @media only screen and (max-width:400px)
 {
 .owl-theme .owl-dots{display:none}
-.logoLeft {width: 100%;float: none;}
-.responsiveFlag{ margin:20px auto}
-.flagText{ margin:auto}
-.logoRight {width: 100%;float: none;text-align: center;}
-.logoRight img {margin: auto;float: none;}
 .linkImage img:first-child {max-width: 250px;}
 }
 
